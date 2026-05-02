@@ -1,0 +1,64 @@
+## .NET / C#
+
+# Build outputs
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+packages/
+.nuget/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Publish output
+publish/
+*.pubxml
+*.pubxml.user
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+logs/
+
+## ASP.NET Core
+
+# User secrets
+**/secrets.json
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+
+## OS
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
